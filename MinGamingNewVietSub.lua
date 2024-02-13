@@ -2491,7 +2491,7 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "TienTiny.Space", HidePremium = false, IntroText = "Ngọc Huệ Library", SaveConfig = true, ConfigFolder = "Ngọc Huệ Hub"})
+local Window = OrionLib:MakeWindow({Name = "Ngọc Huệ", HidePremium = false, IntroText = "Ngọc Huệ Library", SaveConfig = true, ConfigFolder = "Ngọc Huệ Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
